@@ -4,7 +4,7 @@ import {  faYoutube, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-ic
 import {  faHandshake} from '@fortawesome/free-solid-svg-icons';
 
 const Youtuber = (props) => {
-  const { name, channelName, subscriber, image, Salary } = props.youtuber;
+  const { name, channelName, subscriber, image, Salary, age } = props.youtuber;
   return (
     <>
     <div className="col-sm-4">
@@ -15,6 +15,7 @@ const Youtuber = (props) => {
         
         <div className="card-body fw-bold">
           <h3>{name}</h3>
+          <p>Age: {age}</p>
           <p>Channel Name: {channelName}</p>
           <p>Subscribers: {subscriber}</p>
           <p>Salary: ${Salary}</p>
