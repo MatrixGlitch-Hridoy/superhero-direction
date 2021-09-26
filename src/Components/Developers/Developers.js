@@ -22,6 +22,7 @@ const Developers = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-9">
+            <div className="row g-5">
             {youtubers.map((youtuber) => (
               <Youtuber
                 key={youtuber.key}
@@ -29,6 +30,8 @@ const Developers = () => {
                 handleAddToCart={handleAddToCart}
               ></Youtuber>
             ))}
+            </div>
+            
           </div>
           <div className="col-sm-3">
             <Cart cart={cart}></Cart>

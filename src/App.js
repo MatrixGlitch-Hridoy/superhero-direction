@@ -4,7 +4,7 @@ import Developers from './Components/Developers/Developers';
 
 function App() {
   return (
-    <div>
+    <div className="bg-light bg-gradient">
       <Header></Header>
       <Developers></Developers>
     </div>
