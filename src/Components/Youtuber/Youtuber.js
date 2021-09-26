@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faYoutube, faGithub, faLinkedin,} from '@fortawesome/free-brands-svg-icons';
+import {  faYoutube, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {  faHandshake} from '@fortawesome/free-solid-svg-icons';
 
 const Youtuber = (props) => {
   const { name, channelName, subscriber, image, Salary } = props.youtuber;
@@ -16,7 +17,7 @@ const Youtuber = (props) => {
           <h3>{name}</h3>
           <p>Channel Name: {channelName}</p>
           <p>Subscribers: {subscriber}</p>
-          <p>Salary: {Salary}</p>
+          <p>Salary: ${Salary}</p>
           <div className="text-center fs-3">
           <FontAwesomeIcon icon={faYoutube} className="text-danger mx-2"/>
           <FontAwesomeIcon icon={faGithub} className="mx-2"/>
@@ -26,7 +27,7 @@ const Youtuber = (props) => {
           <button
             className="btn btn-danger text-white"
             onClick={() => props.handleAddToCart(props.youtuber)}
-          >Hire Now
+          ><FontAwesomeIcon icon={faHandshake} /> <span className="mx-1">Hire Now</span>
           </button>
           </div>
           
