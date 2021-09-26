@@ -1,0 +1,26 @@
+[
+  {
+    "key": "1",
+    "name": "Jhankar Mahbub",
+    "channelName": "Jhanka Mahbub",
+    "subscriber": "367k",
+    "image": "https://images.gr-assets.com/authors/1456905354p8/15050617.jpg",
+    "Salary": 1000000
+  },
+  {
+    "key": "2",
+    "name": "Sumit Saha",
+    "channelName": "Learn With Sumit",
+    "subscriber": "40k",
+    "image": "https://pbs.twimg.com/profile_images/874172653405327360/QyysiBs5_400x400.jpg",
+    "Salary": 500000
+  },
+  {
+    "key": "3",
+    "name": "Anisul Islam",
+    "channelName": "Anisul Islam",
+    "subscriber": "287k",
+    "image": "https://i.playboard.app/p/AATXAJznXk5D3nZelL2713AQOAQp6Mt2QtX3LL8AIeZa4w/default.jpg",
+    "Salary": 700000
+  }
+]
